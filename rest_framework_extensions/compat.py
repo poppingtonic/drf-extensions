@@ -21,7 +21,7 @@ except ImportError:
 try:
     from django.conf.urls import patterns, url, include
 except ImportError:
-    from django.conf.urls.defaults import patterns, url, include
+    from django.conf.urls import url, include
 
 # Handle django.utils.encoding rename:
 # smart_unicode -> smart_text
